@@ -101,7 +101,7 @@
       </div>
       <!-- mobile menu - start -->
       <div
-        class="bg-bg-primary fixed z-20 m-5 w-[80%] px-4 py-6 shadow-md rounded-lg hidden md:hidden right-0"
+        class="bg-bg-primary fixed z-20 m-5 w-[80%] px-4 py-6 shadow-lg border rounded-lg hidden md:hidden right-0"
         id="menu"
       >
         <div class="flex flex-col gap-6">
@@ -110,18 +110,30 @@
               class="flex flex-col text-center gap-2 text-[16px] font-openSans"
             >
               <li>
-                <a class="text-gray-800 hover:bg-bg-secondary hover:font-semibold p-2 rounded-lg block w-full" href="../"> Home </a>
+                <a
+                  class="text-gray-800 hover:bg-bg-secondary hover:font-semibold p-2 rounded-lg block w-full"
+                  href="../"
+                >
+                  Home
+                </a>
               </li>
 
-              <li
-              >
-                <a class="text-gray-800 bg-bg-secondary p-2 rounded-lg font-semibold block w-full" " href="#"> Chi siamo </a>
+              <li>
+                <a
+                  class="text-gray-800 bg-bg-secondary p-2 rounded-lg font-semibold block w-full"
+                  href="#"
+                >
+                  Chi siamo
+                </a>
               </li>
 
-              <li
-                class=""
-              >
-                <a class="text-gray-800 hover:bg-bg-secondary hover:font-semibold p-2 rounded-lg block w-full" href="../contact/"> Contatti </a>
+              <li class="">
+                <a
+                  class="text-gray-800 hover:bg-bg-secondary hover:font-semibold p-2 rounded-lg block w-full"
+                  href="../contact/"
+                >
+                  Contatti
+                </a>
               </li>
             </ul>
           </nav>
@@ -274,21 +286,19 @@
       </div>
     </footer>
     <!-- footer - end -->
-        <script>
+    <script>
       const menuBtn = document.getElementById("menu-btn");
       const root = document.getElementById("root");
 
       menuBtn.addEventListener("click", () => {
         document.getElementById("menu").classList.toggle("hidden");
-        root.classList.toggle("opacity-70");
+        root.classList.toggle("opacity-40");
       });
-
 
       root.addEventListener("click", () => {
         document.getElementById("menu").classList.add("hidden");
-        root.classList.remove("opacity-70");
+        root.classList.remove("opacity-40");
       });
-
     </script>
   </body>
 </html>

@@ -101,7 +101,7 @@
       </div>
       <!-- mobile menu - start -->
       <div
-        class="bg-bg-primary fixed z-20 m-5 w-[80%] px-4 py-6 shadow-md rounded-lg hidden md:hidden right-0"
+        class="bg-bg-primary fixed z-20 m-5 w-[80%] px-4 py-6 shadow-lg border rounded-lg hidden md:hidden right-0"
         id="menu"
       >
         <div class="flex flex-col gap-6">
@@ -110,18 +110,30 @@
               class="flex flex-col text-center gap-2 text-[16px] font-openSans"
             >
               <li>
-                <a class="text-gray-800 hover:bg-bg-secondary hover:font-semibold p-2 rounded-lg block w-full" href="../"> Home </a>
+                <a
+                  class="text-gray-800 hover:bg-bg-secondary hover:font-semibold p-2 rounded-lg block w-full"
+                  href="../"
+                >
+                  Home
+                </a>
               </li>
 
-              <li
-              >
-                <a class="text-gray-800 hover:bg-bg-secondary hover:font-semibold p-2 rounded-lg block w-full" href="../about/"> Chi siamo </a>
+              <li>
+                <a
+                  class="text-gray-800 hover:bg-bg-secondary hover:font-semibold p-2 rounded-lg block w-full"
+                  href="../about/"
+                >
+                  Chi siamo
+                </a>
               </li>
 
-              <li
-                class=""
-              >
-                <a class="text-gray-800 bg-bg-secondary p-2 rounded-lg font-semibold block w-full" href="#"> Contatti </a>
+              <li class="">
+                <a
+                  class="text-gray-800 bg-bg-secondary p-2 rounded-lg font-semibold block w-full"
+                  href="#"
+                >
+                  Contatti
+                </a>
               </li>
             </ul>
           </nav>
@@ -145,10 +157,10 @@
         <!-- text - start -->
         <div class="mb-10 md:mb-16">
           <h2
-          class="text-text-primary text-3xl sm:text-4xl font-bold font-montserrate text-center"
-        >
-          Contattaci
-        </h2>
+            class="text-text-primary text-3xl sm:text-4xl font-bold font-montserrate text-center"
+          >
+            Contattaci
+          </h2>
 
           <p
             class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg font-openSans"
@@ -311,15 +323,13 @@
 
       menuBtn.addEventListener("click", () => {
         document.getElementById("menu").classList.toggle("hidden");
-        root.classList.toggle("opacity-70");
+        root.classList.toggle("opacity-40");
       });
-
 
       root.addEventListener("click", () => {
         document.getElementById("menu").classList.add("hidden");
-        root.classList.remove("opacity-70");
+        root.classList.remove("opacity-40");
       });
-
     </script>
   </body>
 </html>
