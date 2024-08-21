@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <!-- meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- styles -->
+    <link href="./output.css" rel="stylesheet" />
+    <!-- title -->
+    <title>Document</title>
+  </head>
+  <body class="max-w-screen-2xl mx-auto px-4 md:px-8 bg-bg-primary">
+    <!-- header - start -->
+    <header class="mt-6 rounded-lg">
+      <div class="flex h-16 items-center justify-between">
+        <div class="flex-1 md:flex md:items-center md:gap-12">
+          <a href="#">
+            <div class="flex items-center gap-4">
+              <img
+                src="./assets/images/LogoSmall.png"
+                alt="Site Logo"
+                class="w-20 h-20 hidden md:block"
+              />
+              <h1 class="font-bold text-text-primary font-montserrat text-2xl">
+                FLEA MARKET
+              </h1>
+            </div>
+          </a>
+        </div>
+
+        <div class="md:flex md:items-center md:gap-12">
+          <nav aria-label="Global" class="hidden md:block">
+            <ul class="flex items-center gap-6 text-[16px] font-openSans">
+              <li>
+                <a
+                  class="text-gray-800 transition hover:text-gray-500/75 underline"
+                  href="#"
+                >
+                  Home
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="text-gray-500 transition hover:text-gray-500/75"
+                  href="./about/"
+                >
+                  Chi siamo
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="text-gray-500 transition hover:text-gray-500/75"
+                  href="./contact/"
+                >
+                  Contatti
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="flex items-center gap-4">
+            <div class="sm:flex sm:gap-4">
+              <a
+                class="text-white bg-button-primary hover:opacity-80 active:opacity-90 font-bold font-montserrat text-sm rounded-lg px-5 py-2.5 shadow"
+                href="#"
+              >
+                Prossimi eventi
+              </a>
+            </div>
+
+            <div class="block md:hidden">
+              <button
+                class="rounded-lg bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="size-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header - end -->
+    <!-- main - start -->
+    <main>
+      <!-- hero section - start -->
+      <section class="mt-6 md:mt-12" id="hero">
+        <div class="flex flex-wrap justify-between mb-8 md:mb-16">
+          <div
+            class="w-full lg:w-1/3 flex flex-col justify-center lg:pt-48 lg:pb-24 mb-6 sm:mb-12 lg:mb-0"
+          >
+            <div class="flex flex-col gap-6 md:gap-8 text-center md:text-start">
+              <h1
+                class="text-text-primary text-4xl sm:text-5xl font-bold font-montserrat"
+              >
+                Scopri i Festival e Mercatini che Fanno la Differenza!
+              </h1>
+
+              <p
+                class="text-text-secondary xl:text-lg leading-relaxed font-openSans"
+              >
+                Organizziamo festival e mercatini itineranti unici nel loro
+                genere a Bergamo e provincia, dove ogni evento è un’esperienza
+                che celebra la creatività e la sostenibilità. I nostri
+                espositori propongono prodotti artigianali unici, frutto di
+                riciclo creativo e pratiche green, trasformando ogni acquisto in
+                un gesto di responsabilità verso il pianeta.
+              </p>
+
+              <a href="#">
+                <button
+                  class="text-white bg-button-primary hover:opacity-80 active:opacity-90 font-bold font-montserrat text-lg rounded-lg px-5 py-2.5 text-center w-full"
+                >
+                  Partecipa ai prossimi eventi
+                </button>
+              </a>
+
+              <!-- social - start -->
+              <div class="flex gap-4 items-center justify-center">
+                <span
+                  class="text-gray-400 text-sm sm:text-base font-semibold tracking-widest uppercase font-montserrat"
+                  >Social</span
+                >
+                <span class="w-12 h-px bg-gray-200"></span>
+
+                <div class="flex gap-4">
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100"
+                  >
+                    <svg
+                      class="w-5 h-5"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                      />
+                    </svg>
+                  </a>
+
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100"
+                  >
+                    <svg
+                      class="w-5 h-5"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                      />
+                    </svg>
+                  </a>
+
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100"
+                  >
+                    <svg
+                      class="w-5 h-5"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19.4168 2.4594C17.7648 0.873472 15.4785 0 12.9793 0C9.1616 0 6.81353 1.56493 5.51603 2.87767C3.91693 4.49547 3 6.64362 3 8.77138C3 11.4429 4.11746 13.4934 5.98876 14.2563C6.11439 14.3078 6.24081 14.3337 6.36475 14.3337C6.75953 14.3337 7.07233 14.0754 7.1807 13.661C7.24389 13.4233 7.39024 12.8369 7.45389 12.5823C7.59011 12.0795 7.48005 11.8377 7.18295 11.4876C6.64173 10.8472 6.38969 10.0899 6.38969 9.10438C6.38969 6.17698 8.56948 3.06578 12.6095 3.06578C15.8151 3.06578 17.8064 4.88772 17.8064 7.82052C17.8064 9.67124 17.4077 11.3852 16.6837 12.6468C16.1805 13.5235 15.2957 14.5685 13.9375 14.5685C13.3501 14.5685 12.8225 14.3272 12.4896 13.9066C12.1751 13.5089 12.0714 12.9953 12.1979 12.4599C12.3408 11.855 12.5357 11.2241 12.7243 10.6141C13.0682 9.5001 13.3933 8.44789 13.3933 7.60841C13.3933 6.17252 12.5106 5.20769 11.1969 5.20769C9.52737 5.20769 8.21941 6.90336 8.21941 9.06805C8.21941 10.1297 8.50155 10.9237 8.62929 11.2286C8.41896 12.1197 7.16899 17.4176 6.93189 18.4166C6.79478 18.9997 5.96893 23.6059 7.33586 23.9731C8.87168 24.3858 10.2445 19.8997 10.3842 19.3928C10.4975 18.9806 10.8937 17.4216 11.1365 16.4634C11.878 17.1775 13.0717 17.6603 14.2333 17.6603C16.4231 17.6603 18.3924 16.6749 19.7786 14.8858C21.1229 13.1505 21.8633 10.7318 21.8633 8.0757C21.8632 5.99923 20.9714 3.95209 19.4168 2.4594Z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-full lg:w-2/3 flex mb-12 md:mb-16 relative">
+            <img
+              src="./assets/images/shape2.svg"
+              alt=""
+              class="absolute -z-10 bottom-0 right-52 w-[200px] hidden lg:block"
+            />
+            <img
+              src="./assets/images/shape1.svg"
+              alt=""
+              class="absolute -z-10 -top-20 -left-32 w-[200px] hidden lg:block"
+            />
+            <div
+              class="bg-gray-100 lg:w-[550px] md:h-[550px] rounded-lg shadow-lg overflow-hidden relative z-10 top-12 md:top-16 left-12 md:left-16 -ml-12 lg:ml-0"
+            >
+              <img
+                src="./assets/images/img6.jpg"
+                loading="lazy"
+                alt="Photo by Kaung Htet"
+                class="w-full h-full object-cover object-center"
+              />
+            </div>
+
+            <div
+              class="bg-gray-100 lg:w-[550px] md:h-[550px] rounded-lg shadow-lg overflow-hidden"
+            >
+              <img
+                src="./assets/images/img2.jpg"
+                loading="lazy"
+                alt="Photo by Manny Moreno"
+                class="w-full h-full object-cover object-center"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- hero section - end -->
+
+      <!-- about section - start -->
+      <section class="max-w-screen-lg mx-auto">
+        <h2
+          class="text-text-primary text-3xl sm:text-4xl font-bold font-montserrate text-center"
+        >
+          La nostra missione
+        </h2>
+
+        <!-- <p
+          class="mt-6 text-text-secondary xl:text-lg leading-relaxed font-openSans text-center md:text-start"
+        >
+          In un mondo dominato dal consumismo e dalla produzione di massa,
+          trovare eventi che valorizzino l’autenticità e la sostenibilità è
+          sempre più difficile. Molti festival non riescono a offrire
+          un'esperienza veramente significativa e rispettosa dell'ambiente.
+          <br />
+          <br />
+          Questa mancanza di opportunità non solo soffoca l'innovazione e la
+          creatività, ma contribuisce anche alla marginalizzazione delle
+          economie locali e delle donne che cercano di reinventarsi attraverso
+          il proprio talento. Senza un cambiamento, il nostro futuro rischia di
+          essere dominato dall'omologazione e dalla scarsa consapevolezza
+          ambientale.
+          <br />
+          <br />
+          La nostra missione è ribaltare questa tendenza, organizzando festival
+          e mercatini itineranti che mettono al centro la creatività, la
+          sostenibilità e l'empowerment.
+        </p> -->
+        <p class="mt-6 text-text-secondary xl:text-lg leading-relaxed font-openSans text-center">
+          Promuovere la creatività e la sostenibilità attraverso un evento
+          riconoscibile che faciliti l'incontro tra pubblico e espositori,
+          artisti, designer, collezionisti di oggetti unici.
+        </p>
+      </section>
+      <!-- about section - end -->
+
+      <!-- CTA section - start -->
+      <section
+        class="overflow-hidden bg-bg-secondary sm:grid sm:grid-cols-2 sm:items-center mt-12 md:mt-24 rounded-lg"
+      >
+        <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+          <div
+            class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right"
+          >
+            <h2
+              class="text-2xl font-bold font-montserrat text-text-primary md:text-3xl"
+            >
+              Scopri di più sul prossimo evento vicino a te e unisciti a noi per
+              un’esperienza indimenticabile!
+            </h2>
+
+            <p
+              class="hidden text-text-secondary font-openSans md:mt-4 md:block"
+            >
+              Contattaci per esporre o per partecipare: fai parte del
+              cambiamento che vuoi vedere nel mondo!
+            </p>
+
+            <div class="mt-4 md:mt-8">
+              <a
+                href="#"
+                class="text-white bg-button-primary hover:opacity-80 active:opacity-90 font-bold font-montserrat text-lg rounded-lg px-5 py-2.5 text-center w-full"
+              >
+                Contattaci
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <img
+          alt=""
+          src="./assets/images/img7.jpg"
+          class="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]"
+        />
+      </section>
+      <!-- CTA section - end -->
+
+      <!-- feature section - start -->
+      <section>
+        <div class="mt-12 md:mt-24">
+          <div class="max-w-screen-lg mx-auto">
+            <h1
+              class="text-text-primary text-3xl sm:text-4xl font-bold font-montserrate text-center"
+            >
+              I nostri obiettivi
+            </h1>
+            <p
+              class="mt-6 text-text-secondary xl:text-lg leading-relaxed font-openSans text-center"
+            >
+              Promuoviamo <strong>creatività e sostenibilità</strong> attraverso
+              progetti innovativi e green. Supportiamo l’<strong
+                >empowerment femminile</strong
+              >, valorizziamo l’<strong>artigianato locale</strong>, e offriamo
+              un’esperienza multifunzionale che rafforza l’
+              <strong>integrazione comunitaria</strong>. Ogni evento è
+              un’opportunità per <strong>crescere insieme</strong>.
+            </p>
+          </div>
+
+          <div class="space-y-6 md:space-y-12 mt-6">
+            <!-- Feature 1 -->
+            <div class="flex items-center justify-start">
+              <div
+                class="grid gap-2 lg:grid-flow-col-dense lg:max-w-5xl lg:justify-start lg:grid lg:grid-cols-3"
+              >
+                <div class="max-w-lg min-w-full mx-auto">
+                  <div class="flex h-full">
+                    <div
+                      class="flex flex-col justify-center p-8 border rounded-lg max-w-none bg-bg-secondary"
+                    >
+                      <h2
+                        class="font-medium font-montserrat text-text-primary text-2xl"
+                      >
+                        Creatività e Sostenibilità
+                      </h2>
+                      <p
+                        class="mt-4 text-text-secondary xl:text-lg font-openSans text-pretty"
+                      >
+                        Esplora progetti unici di artigianato e riciclo creativo
+                        che rispettano l’ambiente.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="lg:col-span-2">
+                  <div>
+                    <div
+                      class="relative max-h-[400px] max-w-[700px] overflow-hidden border rounded-lg"
+                    >
+                      <img
+                        src="./assets/images/img5.jpg"
+                        class="object-cover h-full border shadow-2xl rounded-lg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Feature 2 -->
+            <div class="flex items-center justify-end relative">
+              <img
+                src="./assets/images/flea.png"
+                alt=""
+                class="absolute right-0 -top-36 w-[300px] z-10 hidden xl:block"
+              />
+              <div
+                class="grid gap-2 lg:grid-flow-col-dense lg:max-w-5xl lg:justify-start lg:grid lg:grid-cols-3"
+              >
+                <div class="max-w-lg min-w-full mx-auto lg:col-start-3">
+                  <div class="flex h-full">
+                    <div
+                      class="flex flex-col justify-center p-8 border rounded-lg max-w-none bg-bg-secondary"
+                    >
+                      <h2
+                        class="font-medium font-montserrat text-text-primary text-2xl"
+                      >
+                        Empowerment Femminile
+                      </h2>
+                      <p
+                        class="mt-4 text-text-secondary xl:text-lg font-openSans text-pretty"
+                      >
+                        Molti dei nostri espositori sono donne che hanno saputo
+                        trasformare le loro passioni in progetti di successo,
+                        offrendo prodotti con una storia unica e significativa.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="lg:col-span-2">
+                  <div>
+                    <div
+                      class="relative max-h-[400px] max-w-[700px] overflow-hidden border rounded-lg"
+                    >
+                      <img
+                        src="./assets/images/img1.jpg"
+                        class="object-cover h-full border shadow-2xl rounded-lg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Feature 3 -->
+            <div class="flex items-center justify-start">
+              <div
+                class="grid gap-2 lg:grid-flow-col-dense lg:max-w-5xl lg:justify-start lg:grid lg:grid-cols-3"
+              >
+                <div class="max-w-lg min-w-full mx-auto">
+                  <div class="flex h-full">
+                    <div
+                      class="flex flex-col justify-center p-8 border rounded-lg max-w-none bg-bg-secondary"
+                    >
+                      <h2
+                        class="font-medium font-montserrat text-text-primary text-2xl"
+                      >
+                        Integrazione Comunitaria
+                      </h2>
+                      <p
+                        class="mt-4 text-text-secondary xl:text-lg font-openSans text-pretty"
+                      >
+                        Rafforziamo l’economia locale, creando un legame tra
+                        visitatori e territorio.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="lg:col-span-2">
+                  <div>
+                    <div
+                      class="relative max-h-[400px] max-w-[700px] overflow-hidden border rounded-lg"
+                    >
+                      <img
+                        src="./assets/images/img2.jpg"
+                        class="object-cover h-full border shadow-2xl rounded-lg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Feature 4 -->
+            <div class="flex items-center justify-end relative">
+              <!-- <img
+                src="./assets/images/flea2.png"
+                alt=""
+                class="absolute left-0 -top-0 w-[300px] z-10 hidden xl:block"
+              /> -->
+              <div
+                class="grid gap-2 lg:grid-flow-col-dense lg:max-w-5xl lg:justify-start lg:grid lg:grid-cols-3"
+              >
+                <div class="max-w-lg min-w-full mx-auto lg:col-start-3">
+                  <div class="flex h-full">
+                    <div
+                      class="flex flex-col justify-center p-8 border rounded-lg max-w-none bg-bg-secondary"
+                    >
+                      <h2
+                        class="font-medium font-montserrat text-text-primary text-2xl"
+                      >
+                        Esperienza Multifunzionale
+                      </h2>
+                      <p
+                        class="mt-4 text-text-secondary xl:text-lg font-openSans text-pretty"
+                      >
+                        Non solo mercatini, ma anche workshop, concerti e
+                        laboratori per un’esperienza completa.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="lg:col-span-2">
+                  <div>
+                    <div
+                      class="relative max-h-[400px] max-w-[700px] overflow-hidden border rounded-lg"
+                    >
+                      <img
+                        src="./assets/images/img4.jpg"
+                        class="object-cover h-full w-full border shadow-2xl rounded-lg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- feature section - end -->
+
+      <!-- reviews section - start -->
+      <section class="max-w-screen-2xl px-4 md:px-8 mx-auto mt-12 md:mt-24">
+        <h2
+          class="text-text-primary text-3xl sm:text-4xl font-bold font-montserrate text-center"
+        >
+          Cosa dicono di noi
+        </h2>
+
+        <div
+          class="grid sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 mt-6 font-openSans"
+        >
+          <!-- review - start -->
+          <div class="flex flex-col border rounded-lg gap-3 p-4 md:p-6">
+            <div>
+              <span class="block text-sm md:text-base font-bold">Sarah M.</span>
+              <span class="block text-gray-500 text-sm">December 17, 2023</span>
+            </div>
+
+            <!-- stars - start -->
+            <div class="flex gap-0.5 -ml-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-yellow-400"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-yellow-400"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-yellow-400"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-yellow-400"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-yellow-400"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+            </div>
+            <!-- stars - end -->
+
+            <p class="text-gray-600">
+              Bel evento, ho partecipato come espositrice, alla quinta edizione
+              e prima invernale. Agnese e adorabile, la programmazione
+              artistica, la locazione e selezione top.
+            </p>
+          </div>
+          <!-- review - end -->
+
+          <!-- review - start -->
+          <div class="flex flex-col border rounded-lg gap-3 p-4 md:p-6">
+            <div>
+              <span class="block text-sm md:text-base font-bold">Marco D.</span>
+              <span class="block text-gray-500 text-sm">July 21, 2023</span>
+            </div>
+
+            <!-- stars - start -->
+            <div class="flex gap-0.5 -ml-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-yellow-400"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-yellow-400"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-yellow-400"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-yellow-400"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-yellow-400"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+            </div>
+            <!-- stars - end -->
+
+            <p class="text-gray-600">Top!</p>
+          </div>
+          <!-- review - end -->
+
+          <!-- review - start -->
+          <div class="flex flex-col border rounded-lg gap-3 p-4 md:p-6">
+            <div>
+              <span class="block text-sm md:text-base font-bold"
+                >Roberta G.</span
+              >
+              <span class="block text-gray-500 text-sm">March 16, 2023</span>
+            </div>
+
+            <!-- stars - start -->
+            <div class="flex gap-0.5 -ml-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-yellow-400"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-yellow-400"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-yellow-400"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-yellow-400"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-gray-300"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                />
+              </svg>
+            </div>
+            <!-- stars - end -->
+
+            <p class="text-gray-600">
+              Un’esperienza straordinaria sia per gli espositori che per i
+              visitatori. Complimenti al team!
+            </p>
+          </div>
+          <!-- review - end -->
+        </div>
+      </section>
+      <!-- reviews section - start -->
+
+      <!-- CTA section - start -->
+      <section
+        class="overflow-hidden bg-bg-secondary sm:grid sm:grid-cols-2 sm:items-center mt-12 md:mt-24 rounded-lg"
+      >
+        <img
+          alt=""
+          src="./assets/images/img9.jpg"
+          class="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]"
+        />
+        <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+          <div
+            class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right"
+          >
+            <h2
+              class="text-2xl font-bold font-montserrat text-text-primary md:text-3xl"
+            >
+              Scopri di più sul prossimo evento vicino a te e unisciti a noi per
+              un’esperienza indimenticabile!
+            </h2>
+
+            <p
+              class="hidden text-text-secondary font-openSans md:mt-4 md:block"
+            >
+              Contattaci per esporre o per partecipare: fai parte del
+              cambiamento che vuoi vedere nel mondo!
+            </p>
+
+            <div class="mt-4 md:mt-8">
+              <a
+                href="#"
+                class="text-white bg-button-primary hover:opacity-80 active:opacity-90 font-bold font-montserrat text-lg rounded-lg px-5 py-2.5 text-center w-full"
+              >
+                Contattaci
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CTA section - end -->
+
+      <!-- faq section - start -->
+      <section
+        class="max-w-screen-2xl px-4 md:px-8 mx-auto mt-12 md:mt-24 font-openSans"
+      >
+        <h2
+          class="text-text-primary text-3xl sm:text-4xl font-bold font-montserrate text-center"
+        >
+          Domande frequenti FAQ
+        </h2>
+        <div class="divide-y divide-gray-200">
+          <details
+            class="group py-8 [&_summary::-webkit-details-marker]:hidden"
+            open
+          >
+            <summary
+              class="flex cursor-pointer items-center justify-between text-gray-900"
+            >
+              <h2 class="text-lg font-medium">
+                Come posso partecipare come espositore al festival?
+              </h2>
+
+              <span class="relative size-5 shrink-0">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="absolute inset-0 size-5 opacity-100 group-open:opacity-0"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="absolute inset-0 size-5 opacity-0 group-open:opacity-100"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </span>
+            </summary>
+
+            <p class="mt-4 leading-relaxed text-gray-700">
+              Puoi inviare la tua candidatura tramite il modulo di contatto sul
+              nostro sito. Il nostro team valuterà la tua proposta in base ai
+              criteri di selezione, come l'originalità e la sostenibilità del
+              progetto.
+            </p>
+          </details>
+
+          <details
+            class="group py-8 [&_summary::-webkit-details-marker]:hidden"
+          >
+            <summary
+              class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900"
+            >
+              <h2 class="text-lg font-medium">
+                Quali tipi di prodotti o servizi sono ammessi?
+              </h2>
+
+              <span class="relative size-5 shrink-0">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="absolute inset-0 size-5 opacity-100 group-open:opacity-0"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="absolute inset-0 size-5 opacity-0 group-open:opacity-100"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </span>
+            </summary>
+
+            <p class="mt-4 leading-relaxed text-gray-700">
+              Accettiamo espositori che offrono prodotti artigianali, ecologici,
+              fatti a mano e frutto di riciclo creativo. Siamo sempre alla
+              ricerca di progetti che riflettano creatività e sostenibilità.
+            </p>
+          </details>
+
+          <details
+            class="group py-8 [&_summary::-webkit-details-marker]:hidden"
+          >
+            <summary
+              class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900"
+            >
+              <h2 class="text-lg font-medium">
+                È prevista una quota di partecipazione?
+              </h2>
+
+              <span class="relative size-5 shrink-0">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="absolute inset-0 size-5 opacity-100 group-open:opacity-0"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="absolute inset-0 size-5 opacity-0 group-open:opacity-100"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </span>
+            </summary>
+
+            <p class="mt-4 leading-relaxed text-gray-700">
+              Sì, c’è una quota di partecipazione per gli espositori, che varia
+              in base alla durata e alla tipologia dell’evento. Contattaci per
+              conoscere i dettagli specifici e le modalità di pagamento.
+            </p>
+          </details>
+
+          <details
+            class="group py-8 [&_summary::-webkit-details-marker]:hidden"
+          >
+            <summary
+              class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900"
+            >
+              <h2 class="text-lg font-medium">
+                Cosa rende unico questo festival rispetto agli altri?
+              </h2>
+
+              <span class="relative size-5 shrink-0">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="absolute inset-0 size-5 opacity-100 group-open:opacity-0"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="absolute inset-0 size-5 opacity-0 group-open:opacity-100"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </span>
+            </summary>
+
+            <p class="mt-4 leading-relaxed text-gray-700">
+              Il nostro festival è un mix di creatività, sostenibilità ed
+              empowerment femminile. Offriamo non solo un mercatino, ma anche
+              workshop, laboratori e attività culturali, creando un’esperienza
+              completa per espositori e visitatori.
+            </p>
+          </details>
+        </div>
+      </section>
+      <!-- faq section - end -->
+    </main>
+    <!-- main - end -->
+    <!-- footer - start -->
+    <footer>
+      <div
+        class="relative mx-auto px-4 py-16 sm:px-6 lg:px-8 lg:pt-24 space-y-6"
+      >
+        <div class="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
+          <a
+            class="inline-block rounded-full text-white bg-[#f25657] hover:opacity-80 active:opacity-90 p-2 sm:p-3 lg:p-4"
+            href="#"
+          >
+            <span class="sr-only">Back to top</span>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="size-5"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <div
+          class="flex flex-col items-center md:flex-row md:justify-between gap-2"
+        >
+          <h1 class="font-bold text-[#383a46] font-montserrat text-xl">
+            FLEA MARKET
+          </h1>
+
+          <ul class="flex items-center gap-6 text-[16px] font-openSans">
+            <li>
+              <a
+                class="text-gray-800 transition hover:text-gray-500/75 underline"
+                href="#"
+              >
+                Home
+              </a>
+            </li>
+
+            <li>
+              <a
+                class="text-gray-500 transition hover:text-gray-500/75"
+                href="./about/"
+              >
+                Chi siamo
+              </a>
+            </li>
+
+            <li>
+              <a
+                class="text-gray-500 transition hover:text-gray-500/75"
+                href="./contact/"
+              >
+                Contatti
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="flex flex-col items-center md:flex-row md:justify-between gap-2"
+        >
+          <p class="text-sm text-gray-500">
+            Copyright &copy; 2024. All rights reserved.
+          </p>
+          <ul
+            class="flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-12 text-sm text-gray-500"
+          >
+            <li>
+              <a class="hover:underline" href="#"> Terms & Conditions </a>
+            </li>
+
+            <li>
+              <a class="hover:underline" href="#"> Privacy Policy </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- footer - end -->
+  </body>
+</html>
