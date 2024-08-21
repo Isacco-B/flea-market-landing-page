@@ -68,18 +68,17 @@
           </nav>
 
           <div class="flex items-center gap-4">
-            <div class="sm:flex sm:gap-4">
-              <a
-                class="text-white bg-button-primary hover:opacity-80 active:opacity-90 font-bold font-montserrat text-sm rounded-lg px-5 py-2.5 shadow"
-                href="#"
-              >
-                Prossimi eventi
-              </a>
-            </div>
+            <a
+              class="hidden md:block text-white bg-button-primary hover:opacity-80 active:opacity-90 font-bold font-montserrat text-sm rounded-lg px-5 py-2.5 shadow"
+              href="#"
+            >
+              Prossimi eventi
+            </a>
 
             <div class="block md:hidden">
               <button
-                class="rounded-lg bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
+                class="rounded-lg bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75 hover:scale-105"
+                id="menu-btn"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -100,12 +99,50 @@
           </div>
         </div>
       </div>
+
+      <!-- mobile menu - start -->
+      <div
+        class="bg-bg-primary fixed z-20 m-5 w-[80%] px-4 py-6 shadow-md rounded-lg hidden md:hidden right-0"
+        id="menu"
+      >
+        <div class="flex flex-col gap-6">
+          <nav>
+            <ul
+              class="flex flex-col text-center gap-2 text-[16px] font-openSans"
+            >
+              <li>
+                <a class="text-gray-800 bg-bg-secondary p-2 rounded-lg font-semibold block w-full" href="#"> Home </a>
+              </li>
+
+              <li
+              >
+                <a class="text-gray-800 hover:bg-bg-secondary hover:font-semibold p-2 rounded-lg block w-full" " href="./about/"> Chi siamo </a>
+              </li>
+
+              <li
+                class=""
+              >
+                <a class="text-gray-800 hover:bg-bg-secondary hover:font-semibold p-2 rounded-lg block w-full" href="./contact/"> Contatti </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="text-center">
+            <a
+              class="text-white bg-button-primary hover:opacity-80 active:opacity-90 font-bold font-montserrat text-sm rounded-lg px-5 py-2.5 shadow block w-[80%] mx-auto"
+              href="#"
+            >
+              Prossimi eventi
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- mobile menu - end -->
     </header>
     <!-- header - end -->
     <!-- main - start -->
-    <main>
+    <main id="root" class="md:opacity-100">
       <!-- hero section - start -->
-      <section class="mt-6 md:mt-12" id="hero">
+      <section class="mt-8 md:mt-12" id="hero">
         <div class="flex flex-wrap justify-between mb-8 md:mb-16">
           <div
             class="w-full lg:w-1/3 flex flex-col justify-center lg:pt-48 lg:pb-24 mb-6 sm:mb-12 lg:mb-0"
@@ -128,12 +165,11 @@
                 un gesto di responsabilità verso il pianeta.
               </p>
 
-              <a href="#">
-                <button
-                  class="text-white bg-button-primary hover:opacity-80 active:opacity-90 font-bold font-montserrat text-lg rounded-lg px-5 py-2.5 text-center w-full"
-                >
-                  Partecipa ai prossimi eventi
-                </button>
+              <a
+                href="#"
+                class="text-white bg-button-primary hover:opacity-80 active:opacity-90 font-bold font-montserrat md:text-lg rounded-lg px-5 py-2.5 text-center w-full"
+              >
+                Partecipa ai prossimi eventi
               </a>
 
               <!-- social - start -->
@@ -272,7 +308,9 @@
           e mercatini itineranti che mettono al centro la creatività, la
           sostenibilità e l'empowerment.
         </p> -->
-        <p class="mt-6 text-text-secondary xl:text-lg leading-relaxed font-openSans text-center">
+        <p
+          class="mt-6 text-text-secondary xl:text-lg leading-relaxed font-openSans text-center"
+        >
           Promuovere la creatività e la sostenibilità attraverso un evento
           riconoscibile che faciliti l'incontro tra pubblico e espositori,
           artisti, designer, collezionisti di oggetti unici.
@@ -289,7 +327,7 @@
             class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right"
           >
             <h2
-              class="text-2xl font-bold font-montserrat text-text-primary md:text-3xl"
+              class="text-lg font-semibold md:font-bold font-montserrat text-text-primary md:text-3xl"
             >
               Scopri di più sul prossimo evento vicino a te e unisciti a noi per
               un’esperienza indimenticabile!
@@ -305,7 +343,7 @@
             <div class="mt-4 md:mt-8">
               <a
                 href="#"
-                class="text-white bg-button-primary hover:opacity-80 active:opacity-90 font-bold font-montserrat text-lg rounded-lg px-5 py-2.5 text-center w-full"
+                class="text-white bg-button-primary hover:opacity-80 active:opacity-90 font-bold font-montserrat md:text-lg rounded-lg px-5 py-2.5 text-center w-full"
               >
                 Contattaci
               </a>
@@ -759,7 +797,7 @@
             class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right"
           >
             <h2
-              class="text-2xl font-bold font-montserrat text-text-primary md:text-3xl"
+              class="text-lg font-semibold md:font-bold font-montserrat text-text-primary md:text-3xl"
             >
               Scopri di più sul prossimo evento vicino a te e unisciti a noi per
               un’esperienza indimenticabile!
@@ -775,7 +813,7 @@
             <div class="mt-4 md:mt-8">
               <a
                 href="#"
-                class="text-white bg-button-primary hover:opacity-80 active:opacity-90 font-bold font-montserrat text-lg rounded-lg px-5 py-2.5 text-center w-full"
+                class="text-white bg-button-primary hover:opacity-80 active:opacity-90 font-bold font-montserrat md:text-lg rounded-lg px-5 py-2.5 text-center w-full"
               >
                 Contattaci
               </a>
@@ -1086,5 +1124,22 @@
       </div>
     </footer>
     <!-- footer - end -->
+
+    <script>
+      const menuBtn = document.getElementById("menu-btn");
+      const root = document.getElementById("root");
+
+      menuBtn.addEventListener("click", () => {
+        document.getElementById("menu").classList.toggle("hidden");
+        root.classList.toggle("opacity-70");
+      });
+
+
+      root.addEventListener("click", () => {
+        document.getElementById("menu").classList.add("hidden");
+        root.classList.remove("opacity-70");
+      });
+
+    </script>
   </body>
 </html>

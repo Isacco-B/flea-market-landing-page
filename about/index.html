@@ -19,10 +19,9 @@
   <body class="max-w-screen-2xl mx-auto px-4 md:px-8 bg-bg-primary">
     <!-- header - start -->
     <header class="mt-6 rounded-lg">
-      <div class="mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex h-16 items-center justify-between">
-          <div class="flex-1 md:flex md:items-center md:gap-12">
-            <a href="../">
+      <div class="flex h-16 items-center justify-between">
+        <div class="flex-1 md:flex md:items-center md:gap-12">
+          <a href="#">
             <div class="flex items-center gap-4">
               <img
                 src="../assets/images/LogoSmall.png"
@@ -34,79 +33,114 @@
               </h1>
             </div>
           </a>
-          </div>
+        </div>
 
-          <div class="md:flex md:items-center md:gap-12">
-            <nav aria-label="Global" class="hidden md:block">
-              <ul class="flex items-center gap-6 text-[16px]">
-                <li>
-                  <a
-                    class="text-gray-500 transition hover:text-gray-500/75"
-                    href="../"
-                  >
-                    Home
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    class="text-gray-800 transition hover:text-gray-500/75 underline"
-                    href="#"
-                  >
-                    Chi siamo
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    class="text-gray-500 transition hover:text-gray-500/75"
-                    href="../contact/"
-                  >
-                    Contatti
-                  </a>
-                </li>
-              </ul>
-            </nav>
-
-            <div class="flex items-center gap-4">
-              <div class="sm:flex sm:gap-4">
+        <div class="md:flex md:items-center md:gap-12">
+          <nav aria-label="Global" class="hidden md:block">
+            <ul class="flex items-center gap-6 text-[16px] font-openSans">
+              <li>
                 <a
-                  class="text-white bg-[#f25657] hover:opacity-80 active:opacity-90 font-bold font-montserrat text-sm rounded-lg px-5 py-2.5 shadow"
+                  class="text-gray-500 transition hover:text-gray-500/75"
+                  href="../"
+                >
+                  Home
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="text-gray-800 transition hover:text-gray-500/75 underline"
                   href="#"
                 >
-                  Partecipa
+                  Chi siamo
                 </a>
-              </div>
+              </li>
 
-              <div class="block md:hidden">
-                <button
-                  class="rounded-lg bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
+              <li>
+                <a
+                  class="text-gray-500 transition hover:text-gray-500/75"
+                  href="../contact/"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="size-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M4 6h16M4 12h16M4 18h16"
-                    />
-                  </svg>
-                </button>
-              </div>
+                  Contatti
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="flex items-center gap-4">
+            <a
+              class="hidden md:block text-white bg-button-primary hover:opacity-80 active:opacity-90 font-bold font-montserrat text-sm rounded-lg px-5 py-2.5 shadow"
+              href="#"
+            >
+              Prossimi eventi
+            </a>
+
+            <div class="block md:hidden">
+              <button
+                class="rounded-lg bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75 hover:scale-105"
+                id="menu-btn"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="size-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                </svg>
+              </button>
             </div>
           </div>
         </div>
       </div>
+      <!-- mobile menu - start -->
+      <div
+        class="bg-bg-primary fixed z-20 m-5 w-[80%] px-4 py-6 shadow-md rounded-lg hidden md:hidden right-0"
+        id="menu"
+      >
+        <div class="flex flex-col gap-6">
+          <nav>
+            <ul
+              class="flex flex-col text-center gap-2 text-[16px] font-openSans"
+            >
+              <li>
+                <a class="text-gray-800 hover:bg-bg-secondary hover:font-semibold p-2 rounded-lg block w-full" href="../"> Home </a>
+              </li>
+
+              <li
+              >
+                <a class="text-gray-800 bg-bg-secondary p-2 rounded-lg font-semibold block w-full" " href="#"> Chi siamo </a>
+              </li>
+
+              <li
+                class=""
+              >
+                <a class="text-gray-800 hover:bg-bg-secondary hover:font-semibold p-2 rounded-lg block w-full" href="../contact/"> Contatti </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="text-center">
+            <a
+              class="text-white bg-button-primary hover:opacity-80 active:opacity-90 font-bold font-montserrat text-sm rounded-lg px-5 py-2.5 shadow block w-[80%] mx-auto"
+              href="#"
+            >
+              Prossimi eventi
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- mobile menu - end -->
     </header>
     <!-- header - end -->
 
     <!-- main - start -->
-    <main class="py-20 md:py-40 relative">
+    <main class="py-20 md:py-40 relative md:opacity-100" id="root">
       <div>
         <div
           class="w-full justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1"
@@ -240,5 +274,21 @@
       </div>
     </footer>
     <!-- footer - end -->
+        <script>
+      const menuBtn = document.getElementById("menu-btn");
+      const root = document.getElementById("root");
+
+      menuBtn.addEventListener("click", () => {
+        document.getElementById("menu").classList.toggle("hidden");
+        root.classList.toggle("opacity-70");
+      });
+
+
+      root.addEventListener("click", () => {
+        document.getElementById("menu").classList.add("hidden");
+        root.classList.remove("opacity-70");
+      });
+
+    </script>
   </body>
 </html>
