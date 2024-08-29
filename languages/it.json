@@ -5,14 +5,14 @@
   "nav_action_button": "Prossimi eventi",
 
   "hero_title": "Scopri il Festival che fa la Differenza!",
-  "hero_description": "Organizziamo festival e mercatini itineranti unici nel loro genere a Bergamo e provincia, dove ogni evento è un’esperienza che celebra la creatività e la sostenibilità. I nostri espositori propongono prodotti artigianali unici, frutto di riciclo creativo e pratiche green, trasformando ogni acquisto in un gesto di responsabilità verso il pianeta.",
+  "hero_description": "Organizziamo un festival itinerante unico nel suo genere nell’ambito del fatto a mano, upcycling e economia circolare. Ogni evento è un’esperienza che celebra la creatività e la sostenibilità. I nostri espositori propongono prodotti artigianali unici, frutto di riciclo creativo e pratiche green, trasformando ogni acquisto in un gesto di responsabilità verso il pianeta.",
   "hero_action_button": "Partecipa ai prossimi eventi!",
 
   "misson_title": "La nostra missione",
   "misson_description": "Promuovere la creatività e la sostenibilità attraverso un evento riconoscibile che faciliti l'incontro tra pubblico e espositori, artisti, designer, collezionisti di oggetti unici.",
 
   "features_title": "I nostri obiettivi",
-  "features_description": "Promuoviamo creatività e sostenibilità attraverso progetti innovativi e green. Supportiamo l’empowerment femminile, valorizziamo l’artigianato locale, e offriamo un’esperienza multifunzionale che rafforza l’ integrazione comunitaria. Ogni evento è un’opportunità per crescere insieme.",
+  "features_description": "Promuoviamo progetti innovativi e green. Supportiamo l’empowerment femminile, valorizziamo l’artigianato locale, e offriamo un’esperienza polivalente che rafforza l’integrazione comunitaria. Ogni evento è un’opportunità per crescere insieme e generare un impatto positivo .",
 
   "feature_1_title": "Creatività e Sostenibilità",
   "feature_1_description": "Esplora progetti unici di artigianato e riciclo creativo che rispettano l’ambiente.",
@@ -23,7 +23,7 @@
   "feature_3_title": "Integrazione Comunitaria",
   "feature_3_description": "Rafforziamo l’economia locale, creando un legame tra visitatori e territorio.",
 
-  "feature_4_title": "Esperienza Multifunzionale",
+  "feature_4_title": "Esperienza Polivalente",
   "feature_4_description": "Non solo mercatini, ma anche workshop, concerti e laboratori per un’esperienza completa.",
 
   "review_title": "Cosa dicono di noi",
@@ -37,7 +37,7 @@
   "review_3_name": "Roberta G.",
   "review_3_description": "Un’esperienza straordinaria sia per gli espositori che per i visitatori. Complimenti al team!",
 
-  "FAQ_title": "Domande frequenti FAQ",
+  "FAQ_title": "Domande frequenti (FAQ)",
 
   "FAQ_1_title": "Come posso partecipare come espositore al festival?",
   "FAQ_1_description": "Puoi inviare la tua candidatura tramite il modulo di contatto sul nostro sito. Il nostro team valuterà la tua proposta in base ai criteri di selezione, come l'originalità e la sostenibilità del progetto.",
@@ -52,7 +52,7 @@
   "FAQ_4_description": "Il nostro festival è un mix di creatività, sostenibilità ed empowerment femminile. Offriamo non solo un mercatino, ma anche workshop, laboratori e attività culturali, creando un’esperienza completa per espositori e visitatori.",
 
   "CTA_title": "Scopri di più sul prossimo evento vicino a te e unisciti a noi per un’esperienza indimenticabile!",
-  "CTA_description": "Sei un espositore contattaci e inizia fai parte del cambiamento che vuoi vedere nel mondo!",
+  "CTA_description": "Sei un espositore contattaci e inizia a far parte del cambiamento che vuoi vedere nel mondo!",
   "CTA_action_button_1": "Contattaci",
   "CTA_action_button_2": "Prossimi eventi"
 }

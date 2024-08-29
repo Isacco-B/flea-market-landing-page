@@ -1,9 +1,9 @@
 {
   "nav_home": "Home",
-  "nav_about": "About",
+  "nav_about": "About Us",
   "nav_contact": "Contact",
-  "nav_action_button": "Prossimi eventi",
+  "nav_action_button": "Upcoming Events",
 
-  "contact_page_title": "Contattati",
-  "contact_page_description": "Contattaci e inizia fai parte del cambiamento che vuoi vedere nel mondo!"
+  "contact_page_title": "Get in touch",
+  "contact_page_description": "We are at your disposal for any information or support. You can get in touch with us by filling out the form below."
 }
