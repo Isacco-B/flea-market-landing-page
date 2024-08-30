@@ -1,58 +1,58 @@
 {
-  "nav_home": "Home",
-  "nav_about": "Chi siamo",
-  "nav_contact": "Contatti",
-  "nav_action_button": "Prossimi eventi",
+  "nav_home": "Hogar",
+  "nav_about": "Quiénes somos",
+  "nav_contact": "Contactos",
+  "nav_action_button": "Próximos eventos",
 
-  "hero_title": "Scopri il Festival che fa la Differenza!",
-  "hero_description": "Organizziamo festival e mercatini itineranti unici nel loro genere a Bergamo e provincia, dove ogni evento è un’esperienza che celebra la creatività e la sostenibilità. I nostri espositori propongono prodotti artigianali unici, frutto di riciclo creativo e pratiche green, trasformando ogni acquisto in un gesto di responsabilità verso il pianeta.",
-  "hero_action_button": "Partecipa ai prossimi eventi!",
+  "hero_title": "¡Descubre el Festival que Marca la Diferencia!",
+  "hero_description": "Organizamos un festival itinerante único en su tipo, enfocado en lo hecho a mano, el upcycling y la economía circular. Cada evento es una experiencia que celebra la creatividad y la sostenibilidad. Nuestros expositores ofrecen productos artesanales únicos, fruto del reciclaje creativo y prácticas sostenibles, convirtiendo cada compra en un gesto de responsabilidad hacia el planeta.",
+  "hero_action_button": "¡Participa en los próximos eventos!",
 
-  "misson_title": "La nostra missione",
-  "misson_description": "Promover la creatividad y la sostenibilidad a través de un reconocible que facilite el encuentro entre expositores y arte, diseño y coleccionistas de objetos únicos.",
+  "misson_title": "Nuestra misión",
+  "misson_description": "Promover la creatividad y la sostenibilidad a través de un evento reconocible que facilite el encuentro entre el público y los expositores, artistas, diseñadores y coleccionistas de objetos únicos.",
 
-  "features_title": "I nostri obiettivi",
-  "features_description": "Promuoviamo creatività e sostenibilità attraverso progetti innovativi e green. Supportiamo l’empowerment femminile, valorizziamo l’artigianato locale, e offriamo un’esperienza multifunzionale che rafforza l’ integrazione comunitaria. Ogni evento è un’opportunità per crescere insieme.",
+  "features_title": "Nuestros objetivos",
+  "features_description": "Promovemos proyectos innovadores y sostenibles. Apoyamos el empoderamiento femenino, valoramos la artesanía local y ofrecemos una experiencia polivalente que fortalece la integración comunitaria. Cada evento es una oportunidad para crecer juntos y generar un impacto positivo.",
 
-  "feature_1_title": "Creatività e Sostenibilità",
-  "feature_1_description": "Esplora progetti unici di artigianato e riciclo creativo che rispettano l’ambiente.",
+  "feature_1_title": "Creatividad y Sostenibilidad",
+  "feature_1_description": "Explora proyectos únicos de artesanía y reciclaje creativo que respetan el medio ambiente.",
 
-  "feature_2_title": "Empowerment Femminile",
-  "feature_2_description": "Molti dei nostri espositori sono donne che hanno saputo trasformare le loro passioni in progetti di successo, offrendo prodotti con una storia unica e significativa.",
+  "feature_2_title": "Empoderamiento Femenino",
+  "feature_2_description": "Muchas de nuestras expositoras son mujeres que han logrado transformar sus pasiones en proyectos exitosos, ofreciendo productos con una historia única y significativa.",
 
-  "feature_3_title": "Integrazione Comunitaria",
-  "feature_3_description": "Rafforziamo l’economia locale, creando un legame tra visitatori e territorio.",
+  "feature_3_title": "Integración Comunitaria",
+  "feature_3_description": "Fortalecemos la economía local, creando un vínculo entre los visitantes y el territorio.",
 
-  "feature_4_title": "Esperienza Multifunzionale",
-  "feature_4_description": "Non solo mercatini, ma anche workshop, concerti e laboratori per un’esperienza completa.",
+  "feature_4_title": "Experiencia Polivalente",
+  "feature_4_description": "No solo mercadillos, sino también talleres, conciertos y laboratorios para una experiencia completa.",
 
-  "review_title": "Cosa dicono di noi",
+  "review_title": "Qué dicen de nosotros",
 
   "review_1_name": "Sarah M.",
-  "review_1_description": "Bel evento, ho partecipato come espositrice, alla quinta edizione e prima invernale. Agnese e adorabile, la programmazione artistica, la locazione e selezione top.",
+  "review_1_description": "¡Un evento maravilloso! Participé como expositora en la quinta edición, la primera invernal. Agnese es encantadora, la programación artística, la ubicación y la selección son de primera.",
 
   "review_2_name": "Marco D.",
   "review_2_description": "Top!",
 
   "review_3_name": "Roberta G.",
-  "review_3_description": "Un’esperienza straordinaria sia per gli espositori che per i visitatori. Complimenti al team!",
+  "review_3_description": "Una experiencia extraordinaria tanto para los expositores como para los visitantes. ¡Felicidades al equipo!",
 
-  "FAQ_title": "Domande frequenti FAQ",
+  "FAQ_title": "Preguntas frecuentes FAQ",
 
-  "FAQ_1_title": "Come posso partecipare come espositore al festival?",
-  "FAQ_1_description": "Puoi inviare la tua candidatura tramite il modulo di contatto sul nostro sito. Il nostro team valuterà la tua proposta in base ai criteri di selezione, come l'originalità e la sostenibilità del progetto.",
+  "FAQ_1_title": "¿Cómo puedo participar como expositor en el festival?",
+  "FAQ_1_description": "Puedes enviar tu candidatura a través del formulario de contacto en nuestro sitio web. Nuestro equipo evaluará tu propuesta en base a los criterios de selección, como la originalidad y la sostenibilidad del proyecto.",
 
-  "FAQ_2_title": "Quali tipi di prodotti o servizi sono ammessi?",
-  "FAQ_2_description": "Accettiamo espositori che offrono prodotti artigianali, ecologici, fatti a mano e frutto di riciclo creativo. Siamo sempre alla ricerca di progetti che riflettano creatività e sostenibilità.",
+  "FAQ_2_title": "¿Qué tipos de productos o servicios están permitidos?",
+  "FAQ_2_description": "Aceptamos expositores que ofrezcan productos artesanales, ecológicos, hechos a mano y reciclados creativamente. Siempre estamos buscando proyectos que reflejen creatividad y sostenibilidad.",
 
-  "FAQ_3_title": "È prevista una quota di partecipazione?",
-  "FAQ_3_description": "Sì, c’è una quota di partecipazione per gli espositori, che varia in base alla durata e alla tipologia dell’evento. Contattaci per conoscere i dettagli specifici e le modalità di pagamento.",
+  "FAQ_3_title": "¿Hay una cuota de participación?",
+  "FAQ_3_description": "Sí, existe una tarifa de participación para los expositores, que varía según la duración y el tipo de evento. Contáctanos para conocer los detalles específicos y métodos de pago.",
 
-  "FAQ_4_title": "Cosa rende unico questo festival rispetto agli altri?",
-  "FAQ_4_description": "Il nostro festival è un mix di creatività, sostenibilità ed empowerment femminile. Offriamo non solo un mercatino, ma anche workshop, laboratori e attività culturali, creando un’esperienza completa per espositori e visitatori.",
+  "FAQ_4_title": "¿Qué hace que este festival sea único en comparación con otros?",
+  "FAQ_4_description": "Nuestro festival es una mezcla de creatividad, sostenibilidad y empoderamiento femenino. Ofrecemos no sólo un mercado, sino también talleres, talleres y actividades culturales, creando una experiencia completa para expositores y visitantes.",
 
-  "CTA_title": "Scopri di più sul prossimo evento vicino a te e unisciti a noi per un’esperienza indimenticabile!",
-  "CTA_description": "Sei un espositore contattaci e inizia fai parte del cambiamento che vuoi vedere nel mondo!",
-  "CTA_action_button_1": "Contattaci",
-  "CTA_action_button_2": "Prossimi eventi"
+  "CTA_title": "¡Descubre más sobre el próximo evento cerca de ti y únete a nosotros para una experiencia inolvidable!",
+  "CTA_description": "¿Eres un expositor? ¡Contáctanos y comienza a formar parte del cambio que quieres ver en el mundo!",
+  "CTA_action_button_1": "Contáctanos",
+  "CTA_action_button_2": "Próximos eventos"
 }
