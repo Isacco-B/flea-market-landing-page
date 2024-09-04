@@ -5,5 +5,11 @@
   "nav_action_button": "Upcoming Events",
 
   "contact_page_title": "Get in touch",
-  "contact_page_description": "We are at your disposal for any information or support. You can get in touch with us by filling out the form below."
+  "contact_page_description": "We are at your disposal for any information or support. You can get in touch with us by filling out the form below.",
+
+  "form_name_label": "Name*",
+  "form_email_label": "Email*",
+  "form_message_label": "Message*",
+
+  "form_submit_button": "Send"
 }

@@ -5,5 +5,11 @@
   "nav_action_button": "Prossimi eventi",
 
   "contact_page_title": "Contattaci",
-  "contact_page_description": "Siamo a tua disposizione per qualsiasi informazione o supporto. Puoi metterti in contatto con noi compilando il modulo qui sotto."
+  "contact_page_description": "Siamo a tua disposizione per qualsiasi informazione o supporto. Puoi metterti in contatto con noi compilando il modulo qui sotto.",
+
+  "form_name_label": "Nome*",
+  "form_email_label": "Email*",
+  "form_message_label": "Messaggio*",
+
+  "form_submit_button": "Invia"
 }

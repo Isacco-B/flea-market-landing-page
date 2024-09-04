@@ -69,7 +69,7 @@
     <!-- Meta Title -->
     <title>Contatti - Flea Market</title>
   </head>
-  <body class="max-w-screen-2xl mx-auto px-4 md:px-8 bg-bg-primary">
+  <body class="max-w-screen-2xl mx-auto px-6 md:px-8 bg-bg-primary">
     <!-- header - start -->
     <header class="mt-6 rounded-lg">
       <div class="flex h-16 items-center justify-between">
@@ -79,9 +79,9 @@
               <img
                 src="../assets/images/LogoSmall.png"
                 alt="Site Logo"
-                class="w-20 h-20 hidden md:block"
+                class="w-24 h-24 hidden md:block"
               />
-              <h1 class="font-bold text-text-primary font-montserrat text-2xl">
+              <h1 class="font-bold text-text-primary font-montserrat text-2xl xl:text-3xl">
                 FLEA MARKET
               </h1>
             </div>
@@ -94,7 +94,7 @@
               <li>
                 <a
                   data-i18n="nav_home"
-                  class="text-gray-500 transition hover:text-gray-500/75"
+                  class="text-gray-500 transition hover:text-gray-500/75 text-lg"
                   href="../"
                 >
                   Home
@@ -104,7 +104,7 @@
               <li>
                 <a
                   data-i18n="nav_about"
-                  class="text-gray-500 transition hover:text-gray-500/75"
+                  class="text-gray-500 transition hover:text-gray-500/75 text-lg"
                   href="../about/"
                 >
                   Chi siamo
@@ -114,7 +114,7 @@
               <li>
                 <a
                   data-i18n="nav_contact"
-                  class="text-gray-800 transition hover:text-gray-500/75 underline"
+                  class="text-gray-800 transition hover:text-gray-500/75 underline text-lg"
                   href="#"
                 >
                   Contatti
@@ -382,86 +382,151 @@
     <!-- header - end -->
 
     <!-- main - start -->
-    <main class="mt-12 opacity-100" id="root">
-      <div>
-        <!-- text - start -->
-        <div class="mb-10 md:mb-16">
-          <h2
-            data-i18n="contact_page_title"
-            class="text-text-primary text-3xl sm:text-4xl font-bold font-montserrate text-center"
-          >
-            Contattaci
-          </h2>
-
-          <p
-            data-i18n="contact_page_description"
-            class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg font-openSans"
-          >
-            This is a section of some simple filler text, also known as
-            placeholder text. It shares some characteristics of a real written
-            text but is random or otherwise generated.
-          </p>
-        </div>
-        <!-- text - end -->
-
-        <!-- form - start -->
-        <form
-          class="mx-auto grid max-w-screen-lg gap-4 sm:grid-cols-2 p-4 md:p-8 bg-bg-secondary border rounded-lg"
+    <main class="mt-12 lg:py-16">
+      <div class="container mx-auto" id="root">
+        <h1
+          class="text-text-primary text-4xl sm:text-5xl font-bold font-montserrat text-center mb-4"
+          data-i18n="contact_page_title"
         >
-          <div class="sm:col-span-2">
-            <label
-              for="first-name"
-              class="mb-2 inline-block text-sm text-gray-500 sm:text-base"
-              >Name*</label
+          Contattaci
+        </h1>
+        <p
+          class="block text-text-secondary leading-relaxed font-openSans text-lg xl:text-xl mx-auto max-w-3xl text-center"
+          data-i18n="contact_page_description"
+        >
+          Siamo a tua disposizione per qualsiasi informazione o supporto. Puoi
+          metterti in contatto con noi compilando il modulo qui sotto.
+        </p>
+        <div class="border-t my-4 w-1/2 mx-auto"></div>
+        <div
+          class="space-y-3 mb-10 lg:mb-20 block text-text-secondary leading-relaxed font-openSans text-lg xl:text-xl text-center"
+        >
+          <span class="md:mr-5">Fleamarket.yo@gmail.com</span>
+          <span>Fleamarket.espain@gmail.com</span>
+          <div class="flex gap-4 items-center justify-center">
+            <span
+              class="text-gray-400 text-sm sm:text-base font-semibold tracking-widest uppercase font-montserrat"
+              >Social</span
             >
-            <input
-              name="first-name"
-              class="w-full rounded-lg border px-3 py-2 text-gray-800 outline-none ring-[#f25657]/10 transition duration-100 focus:ring"
-            />
-          </div>
+            <span class="w-12 h-px bg-gray-200"></span>
 
-          <div class="sm:col-span-2">
-            <label
-              for="email"
-              class="mb-2 inline-block text-sm text-gray-500 sm:text-base"
-              >Email*</label
-            >
-            <input
-              name="email"
-              class="w-full rounded-lg border px-3 py-2 text-gray-800 outline-none ring-[#f25657]/10 transition duration-100 focus:ring"
-            />
+            <div class="flex gap-4">
+              <a
+                href="https://www.instagram.com/fleamarket.yo/"
+                target="_blank"
+                class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-instagram"
+                >
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                </svg>
+              </a>
+              <a
+                href="https://www.facebook.com/fleamarket.yo/?locale=it_IT"
+                target="_blank"
+                class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-facebook"
+                >
+                  <path
+                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                  />
+                </svg>
+              </a>
+            </div>
           </div>
+        </div>
 
-          <div class="sm:col-span-2">
-            <label
-              for="message"
-              class="mb-2 inline-block text-sm text-gray-500 sm:text-base"
-              >Message*</label
-            >
-            <textarea
-              name="message"
-              class="h-64 w-full rounded border px-3 py-2 text-gray-800 outline-none ring-[#f25657]/10 transition duration-100 focus:ring"
-            ></textarea>
-          </div>
+        <div
+          class="grid grid-cols-1 gap-x-12 gap-y-6 lg:grid-cols-2 items-start"
+        >
+          <img
+            src="../assets/images/flea-market-workshop-bergamo.jpg"
+            alt="flea market contact image"
+            class="w-full h-full lg:max-h-[510px] rounded-lg object-cover"
+          />
 
-          <div class="flex items-center justify-between sm:col-span-2">
+          <form action="https://formsubmit.co/" method="POST" class="flex flex-col gap-4">
+            <div class="sm:col-span-2">
+              <label
+                for="name"
+                class="mb-2 inline-block text-sm text-gray-500 sm:text-base"
+                data-i18n="form_name_label"
+                >Nome*</label
+              >
+              <input
+                name="name"
+                required
+                class="w-full rounded-lg border px-3 py-2 text-gray-800 outline-none ring-[#f25657]/20 transition duration-100 focus:ring"
+              />
+            </div>
+
+            <div class="sm:col-span-2">
+              <label
+                for="email"
+                class="mb-2 inline-block text-sm text-gray-500 sm:text-base"
+                data-i18n="form_email_label"
+                >Email*</label
+              >
+              <input
+                name="email"
+                required
+                class="w-full rounded-lg border px-3 py-2 text-gray-800 outline-none ring-[#f25657]/20 transition duration-100 focus:ring"
+              />
+            </div>
+
+            <div class="sm:col-span-2">
+              <label
+                for="message"
+                class="mb-2 inline-block text-sm text-gray-500 sm:text-base"
+                data-i18n="form_message_label"
+                >Messaggio*</label
+              >
+              <textarea
+                name="message"
+                required
+                class="h-64 w-full rounded border px-3 py-2 text-gray-800 outline-none ring-[#f25657]/20 transition duration-100 focus:ring"
+              ></textarea>
+            </div>
             <button
-              class="text-white bg-button-primary hover:opacity-80 active:opacity-90 font-bold font-montserrat text-sm rounded-lg px-8 py-2.5 shadow w-full md:w-1/2"
+              class="w-1/2 mx-auto text-white bg-button-primary hover:opacity-80 active:opacity-90 font-bold font-montserrat text-sm rounded-lg px-5 py-2.5 shadow"
+              type="submit"
+              data-i18n="form_submit_button"
             >
-              Send
+              Invia
             </button>
-          </div>
-
-          <p class="text-xs text-gray-400">
-            By signing up to our newsletter you agree to our
-            <a
-              href="#"
-              class="underline transition duration-100 hover:text-button-primary active:text-button-primary"
-              >Privacy Policy</a
-            >.
-          </p>
-        </form>
-        <!-- form - end -->
+            <p class="text-xs text-gray-400 text-center">
+              By signing up to our newsletter you agree to our
+              <a
+                href="#"
+                class="underline transition duration-100 hover:text-button-primary active:text-button-primary"
+                >Privacy Policy</a
+              >.
+            </p>
+          </form>
+        </div>
       </div>
     </main>
     <!-- main - end -->
