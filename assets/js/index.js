@@ -184,8 +184,8 @@ window.addEventListener("DOMContentLoaded", async () => {
 
   const activeLang = languages[preferredLanguage]
     ? preferredLanguage
-    : languages[userLanguages[1]]
-    ? userLanguages[1]
+    : languages[userLanguages[0].split("-")[0]]
+    ? userLanguages[0].split("-")[0]
     : "it";
 
   langFlag.innerHTML = languages[activeLang].flag;
