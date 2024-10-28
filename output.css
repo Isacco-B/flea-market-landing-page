@@ -1426,6 +1426,11 @@ video {
   opacity: 1;
 }
 
+#hero-title {
+  font-size: 2.5rem;
+  line-height: normal;
+}
+
 @media (max-width: 1600px) {
   .max-\[1600px\]\:bg-sky-700 {
     --tw-bg-opacity: 1;
@@ -1460,6 +1465,10 @@ video {
 @media (min-width: 640px) {
   .sm\:end-6 {
     inset-inline-end: 1.5rem;
+  }
+
+  #hero-title {
+    font-size: 4rem;
   }
 
   .sm\:top-6 {
@@ -1666,6 +1675,11 @@ video {
 }
 
 @media (min-width: 1024px) {
+
+  #hero-title {
+    font-size: 5.5rem;
+  }
+
   .lg\:end-8 {
     inset-inline-end: 2rem;
   }
